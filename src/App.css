@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cxHeading {
+  font-family: 'Big Shoulders Display Variable', system-ui;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Outfit Variable', sans-serif;
+}
+
+.desktop-invert {
+    position: relative;
+}
+
+.desktop-invert:before,
+.desktop-invert:after {
+    padding: 10px 0;
+    position: absolute;
+    white-space: nowrap;
+    overflow: hidden;
+    content: attr(data-content);
+}
+
+.desktop-invert:before {
+    color: #151515;
+    width: 100%;
+}
+
+.desktop-invert:after {
+    color: #FFFFFF;
+    width: 63.7%;
+}
