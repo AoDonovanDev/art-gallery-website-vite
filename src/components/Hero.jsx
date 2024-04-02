@@ -16,7 +16,7 @@ export default function Hero() {
   }
 
   return (
-    <div className="flex w-[1439px] h-[800px]">
+    <div className="flex w-[1439px]">
       <div className="w-[450px] bg-[#151515] flex flex-col">
         <p className="text-[96px] font-[900] text-[#ffffff] desktop-invert relative left-[164px] top-[175px] text-left leading-none tracking-normal cxHeading" data-content="MODERN"></p>
         <div className="flex relative left-[164px] top-[274px]">

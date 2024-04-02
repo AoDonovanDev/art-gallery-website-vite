@@ -6,11 +6,11 @@ import Footer from './components/Footer'
 function App() {
 
   return (
-    <>
-      <Hero />
-      <Info/>
+    <div className='flex flex-col'>
+      <Hero /> 
+      <Info /> 
       <Footer />
-    </>
+    </div>
   )
 }
 
