@@ -10,10 +10,8 @@ function App() {
 
   const [screenWidth, setScreenwWidth] = useState(window.outerWidth)
 
-  window.addEventListener('resize', function(e){
-    console.log(e)
+  window.addEventListener('resize', function(){
     setScreenwWidth(window.outerWidth)
-    console.log(screenWidth)
   })
 
   return (

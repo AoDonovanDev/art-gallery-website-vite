@@ -17,7 +17,7 @@ export default function MobileHero() {
   return (
     <div className="grid grid-cols-1 w-full mb-[120px]">
      <img src={heroImgUrl} alt="large painting of a lady, people walking by" className="w-full"/>
-     <p className="text-[60px] text-[#151515] font-[900] cxHeading leading-none mt-[39px] ml-[14px] mb-[22px]">MODERN <br/> ART GALLERY</p>
+     <p className="text-[60px] text-[#151515] font-[900] cxHeading leading-none mt-[39px] ml-[14px] mb-[31px]">MODERN <br/> ART GALLERY</p>
      <p className="ml-[18px] mb-[36px]">The arts in the collection of the Modern Art <br/>Gallery all started
           from a spark of <br/>inspiration. Will these pieces inspire you? <br/>Visit
           us and find out.</p>
