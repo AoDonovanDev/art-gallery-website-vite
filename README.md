@@ -1,8 +1,48 @@
-# React + Vite
+# Frontend Mentor - Art gallery website solution
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a solution to the [Art gallery website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/art-gallery-website-yVdrZlxyA). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-Currently, two official plugins are available:
+## Table of contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+**Note: Delete this note and update the table of contents based on what sections you keep.**
+
+## Overview
+
+### The challenge
+
+Users should be able to:
+
+- View the optimal layout for desktop and mobile
+- Set hover state of the button on mouse events for desktop, touch events for mobile
+
+### Screenshots
+
+<div style="display: flex; gap: 80px; align-items: start">
+  <img src="./screenshots/art-gallery-desktop-resize.png" />
+  <img src="./screenshots/art-gallery-mobile-resize.png" />
+</div>
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+  I began by roughing out the general shape of the site with some empty components and tailwind utility classes.  I planned to use tailwind classes for the broad shape of the project and then plain css for the finer details. As I began measuring pixels and inserting more precise values, I felt that the mobile layout and desktop layout were different enough to warrant separate components.  I did this in the interest of being as accurate as possible in the timeframe of about a week, but it could be re factored as single components with more breakpoints added. I spent some time up front with what I felt would be the most time consuming part, and that was getting the color blend on the word 'Modern' right and I tried a couple of different approaches there.  My first thought was the CSS blend mode property, but I didn't find this precise enough so I used some css pseudo classes to get the right effect.  
+### Built with
+
+- Adaptive Design
+- Mobile first workflow
+- Conditional rendering
+- [React](https://reactjs.org/) 
+- [Vite](https://vitejs.dev/) 
+- [Tailwind](https://tailwindcss.com/) 
+
+### Author
+  [Andrew Donovan](https://www.linkedin.com/in/andrew-donovan-020099266/)
