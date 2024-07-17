@@ -5,7 +5,7 @@ import './index.css'
 // Bundle big shoulders and outfit fonts:
 import '@fontsource-variable/big-shoulders-display';
 import '@fontsource-variable/outfit';
-
+//a comment(for reasons)
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
